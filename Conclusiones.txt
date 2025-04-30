@@ -1,3 +1,10 @@
+Grupo 01:
+Andrea Acevedo Soto
+Miguel Antonio Cogollo Pérez
+Maritza Gisela Arenas Grajales
+Helbert Arturo Montana Preciado
+Alejandra Villegas Echeveverri
+
 1. Lo aprendido durante el desarrollo del proyecto:
 Durante el desarrollo de este proyecto aprendimos a trabajar con archivos planos, leer y escribir datos de manera estructurada, y aplicar lógica de programación para generar y procesar información. También reforzamos el uso de estructuras de control, colecciones y clases en Java, así como el manejo adecuado de excepciones. Aprendimos a manejar stream de datos, funciones básicas y avanzadas en git y github. Fue muy útil aprender a trabajar en equipo a través de un repositorio compartido, lo cual nos permitió organizarnos y mantener versiones actualizadas del código.
 
