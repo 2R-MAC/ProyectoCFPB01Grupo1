@@ -12,7 +12,7 @@ public class GenerateInfoFiles {
 
     public static void createSalesManInfoFile(int salesmanCount) throws IOException {
         File file = new File("Vendedores"
-        		+ "..txt");
+        		+ .csv");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
             for (int i = 0; i < salesmanCount; i++) {
                 String docType = "CC";
@@ -26,7 +26,7 @@ public class GenerateInfoFiles {
     }
 
     public static void createProductsFile(int productsCount) throws IOException {
-        File file = new File("productos.txt");
+        File file = new File("productos.csv");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
             for (int i = 1; i <= productsCount; i++) {
             	String productoname = PRODUCTOS[RANDOM.nextInt(PRODUCTOS.length)];
@@ -39,7 +39,7 @@ public class GenerateInfoFiles {
     
 
     public static void createSalesMenFile(int randomSalesCount, String name, long id) throws IOException {
-        File file = new File("Ventas de " + name + ".txt");
+        File file = new File("Ventas de " + name + ".csv");
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(file))) {
             writer.write("CC;" + id + "\n");
             for (int i = 0; i < randomSalesCount; i++) {
